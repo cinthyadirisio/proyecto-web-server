@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Web server simple para exponer un proyecto estático web anterior",
   "main": "src/app.js",
+  "type": "module",
   "scripts": {
     "dev": "nodemon src/app.js"
   },
