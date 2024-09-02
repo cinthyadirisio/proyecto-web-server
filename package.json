@@ -1,0 +1,31 @@
+{
+  "name": "proyecto-web-server",
+  "version": "0.0.1",
+  "description": "Web server simple para exponer un proyecto estático web anterior",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cinthyadirisio/proyecto-web-server.git"
+  },
+  "keywords": [
+    "server",
+    "nodeJS"
+  ],
+  "author": "Cinthya Di Risio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cinthyadirisio/proyecto-web-server/issues"
+  },
+  "homepage": "https://github.com/cinthyadirisio/proyecto-web-server#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "env-var": "^7.5.0",
+    "express": "^4.19.2"
+  }
+}
